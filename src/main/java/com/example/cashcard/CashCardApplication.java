@@ -1,14 +1,14 @@
-package com.example.demo;
+package com.example.cashcard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class CashCardApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("welcome to spring boot application");
+		SpringApplication.run(CashCardApplication.class, args);
+
 	}
 
 }
