@@ -1,6 +1,5 @@
 package com.example.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 public class CashCard {
 
