@@ -13,21 +13,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 public class CashCardController {
     
-   
-    // @GetMapping("/cashcards/{requestedId}")
-    // private CashCard findById(@PathVariable Long requestedID){
-    //     return null;
-        
-    // }
-
-    @GetMapping("/cashcards/{requestedId}")
+       @GetMapping("/cashcards/{requestedID}")
     private ResponseEntity<CashCard> findById(@PathVariable Long requestedID){
         CashCard cashCard = null;
         return ResponseEntity.ok(cashCard);
 
     }
-
-
-   
 }
 
